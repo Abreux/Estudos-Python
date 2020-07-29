@@ -13,15 +13,15 @@ for cont in range(0, 5):
             men = valores[cont]
         if valores[cont] > mai:
             mai = valores[cont]
-print('\033[2;35m_._\033[m' *22)
+print('\033[2;32m_._\033[m' *22)
 print(f'Números digitados: \n',valores)
-print('\033[2;35m_._\033[m' *22)
+print('\033[2;32m_._\033[m' *22)
 print(f'O menor número digitado foi {men}, na posição: \n', end='')
 for p, v in enumerate(valores):
     if v == men:
         print(f'{p + 1}...', end='')
         print()
-print('\033[2;35m_._\033[m' *22)
+print('\033[2;32m_._\033[m' *22)
 print(f'O maior número digitado foi {mai}, na posição: \n', end='')
 for p, v in enumerate(valores):
     if v == mai:
